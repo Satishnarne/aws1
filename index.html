@@ -1,1 +1,94 @@
- Labels or Instructions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas Cars</title>
+    <style>
+        /* CSS styles go here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dallas Cars</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <!-- Add more navigation links as needed -->
+    </nav>
+    <main>
+        <div class="product">
+            <img src="car1.jpg" alt="Car 1">
+            <h2>Car Model 1</h2>
+            <p>Type: Sedan</p>
+            <p>Color: Red</p>
+        </div>
+        <div class="product">
+            <img src="car2.jpg" alt="Car 2">
+            <h2>Car Model 2</h2>
+            <p>Type: SUV</p>
+            <p>Color: Blue</p>
+        </div>
+        <!-- Add more product sections as needed -->
+    </main>
+    <footer>
+        <p>&copy; Dallas Cars</p>
+        <form>
+            <h3>Contact Us</h3>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+    <script>
+        // JavaScript code goes here
+    </script>
+</body>
+</html>
